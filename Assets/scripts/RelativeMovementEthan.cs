@@ -19,6 +19,8 @@ public class RelativeMovementEthan : MonoBehaviour {
 	public float terminalVelocity = -10.0f;
 	public float minFall = -1.5f;
 
+	public float pushForce = 3.0f;
+
 	private CharacterController charController;
 
 	private Animator animator;
@@ -106,5 +108,10 @@ public class RelativeMovementEthan : MonoBehaviour {
 
 	void OnControllerColliderHit(ControllerColliderHit hit) {
 		contact = hit;
+
+		Rigidbody body = hit.collider.attachedRigidbody;
+		if (body != null && !body.isKinematic) {
+			body.velocity = hit.moveDirection * pushForce;
+		}
 	}
 }

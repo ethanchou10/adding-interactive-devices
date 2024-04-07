@@ -331,6 +331,7 @@
 "Assets/MouseLook.cs"
 "Assets/scripts/devices/ColorChangeDevice.cs"
 "Assets/scripts/devices/DeviceOperator.cs"
+"Assets/scripts/devices/DeviceTrigger.cs"
 "Assets/scripts/devices/DoorOpenDevice.cs"
 "Assets/scripts/OrbitCamera.cs"
 "Assets/scripts/RelativeMovement.cs"
