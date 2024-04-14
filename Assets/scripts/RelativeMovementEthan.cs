@@ -64,7 +64,7 @@ public class RelativeMovementEthan : MonoBehaviour {
 			                                     direction, rotSpeed * Time.deltaTime);
 		}
 		
-		Debug.Log(movement.sqrMagnitude);
+		//Debug.Log(movement.sqrMagnitude);
 		animator.SetFloat("Speed", movement.sqrMagnitude);
 
 		bool hitGround = false;

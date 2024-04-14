@@ -327,6 +327,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/collectibleItems/CollectibleItem.cs"
 "Assets/FPSInput.cs"
 "Assets/MouseLook.cs"
 "Assets/scripts/devices/ColorChangeDevice.cs"
