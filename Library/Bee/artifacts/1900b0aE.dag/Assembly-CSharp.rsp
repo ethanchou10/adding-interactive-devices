@@ -336,7 +336,6 @@
 "Assets/scripts/devices/DoorOpenDevice.cs"
 "Assets/scripts/OrbitCamera.cs"
 "Assets/scripts/RelativeMovement.cs"
-"Assets/scripts/RelativeMovementEthan.cs"
 "Assets/Spin.cs"
 -langversion:9.0
 
