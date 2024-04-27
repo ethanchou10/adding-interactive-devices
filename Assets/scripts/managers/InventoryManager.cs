@@ -4,12 +4,25 @@ using System.Collections.Generic;
 
 public class InventoryManager : MonoBehaviour, IGameManager {
 	public ManagerStatus status {get; private set;}
+	public string equippedItem {get; private set;}
 
 	private Dictionary<string, int> _items;
 
 	public List<string> GetItemList() {
 		List<string> list = new List<string>(_items.Keys);
 		return list;
+	}
+
+	public bool EquipItem(string name) {
+		if (_items.ContainsKey(name) && equippedItem != name) {
+			equippedItem = name;
+			Debug.Log($"Equipped {name}");
+			return true;
+		}
+
+		equippedItem = null;
+		Debug.Log("Unequipped");
+		return false;
 	}
 
 	public int GetItemCount(string name) {
