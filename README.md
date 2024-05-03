@@ -1,4 +1,3 @@
 # adding-interactive-devices
  
-https://github.com/ethanchou10/adding-interactive-devices/assets/158808046/de9f8d53-0743-4b7a-b5ad-329c632252ce
-
+https://github.com/ethanchou10/adding-interactive-devices/assets/158808046/522ea4f7-402c-4bdf-b18b-95e2684f6706
